@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="UTF-8">
+        <title>PHP Practice Contact Form</title>
+        <link rel="stylesheet" href="./styles.css">
+    </head>
+<body>
+
+<h1>Please enter your message below</h1>
+    <form role="form" method="POST" action="">
+        <div class="formElements">
+            <label for="name" class="controlLabel">Name</label>
+            <input type="text" for="name" id="name" class="formControl" placeholder=" e.g. John Doe">
+        </div>
+        <div class="formGroup">
+            <label for="email" class="controlLabel">Email</label>
+            <input type="email" class="formControl" id="email" for="email" placeholder=" e.g. johndoe@gmail.com">
+        </div>
+        <div class="formGroup">
+            <label for="message" class="controlLabel">Message</label>
+            <textarea class="formControl" rows="4" name="message" placeholder="Type message here"></textarea>
+        </div>
+        <div class="formGroup">
+            <label for="human" class="controlLabel">Please type Hi There.</label>
+            <input type="text" class="formControl" id="human" placeholder="Your Answer">
+        </div>
+        <div class="formGroup">
+            <input id="submit" name="submit" type="submit" value="Send">
+        </div>
+    </form>
+</body>
+</html>
